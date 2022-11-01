@@ -1,0 +1,43 @@
+
+* {
+  margin: 5px;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    background: url('img/fondo.jpg');
+    color: #030303;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+    table thead {
+    background:#01ff7c;
+    color:rgb(255, 255, 255);
+    }
+
+    #boton {
+        background-color: #049e32;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-size: 20px;
+        border-radius: 5px;
+      }
+    #boton {
+        -webkit-transition-duration: 0.5s; 
+        transition-duration: 0.4s;
+      }
+    #boton:hover {
+        background-color: #eeff00; 
+        color: rgb(255, 255, 255);
+      }
